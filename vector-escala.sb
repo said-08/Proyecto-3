@@ -1,0 +1,19 @@
+TextWindow.WriteLine("Digite la longitud de los vectores")
+num = TextWindow.ReadNumber()
+
+TextWindow.WriteLine("Vector A:")
+For i = 1 To num
+  TextWindow.WriteLine("Digite el elemento "+i)
+   A[i] =TextWindow.ReadNumber()
+EndFor
+
+TextWindow.WriteLine("Digite el numero para multiplicarlo con el vector")
+mult = TextWindow.ReadNumber()
+ 
+ 
+TextWindow.WriteLine("Vector C:")
+For n = 1 To num 
+  C[n] = mult * A[n]
+
+  TextWindow.WriteLine( C[n])
+ EndFor
